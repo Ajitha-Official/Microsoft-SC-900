@@ -1,0 +1,17 @@
+Module 1:
+Describe the shared responsibility and the defense in-depth security models.
+Describe the Zero-Trust model.
+Describe the concepts of encryption and hashing.
+Describe some basic compliance concepts.
+
+Describe the shared responsibility and the defense in-depth security models.
+On-premises - Organizations are 100% responsible
+Cloud based services - Responsibility shared between customer and cloud provider
+
+Cloud-based services:
+Responsibilities are shared depending on where the workload is hosted:
+- Software as a Service (SaaS)
+- Platform as a Service (PaaS)
+- Infrastructure as a Service (IaaS)
+- On-premises datacenter
+
