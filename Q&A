@@ -1,0 +1,804 @@
+1. When working with a cloud services provider, which security responsibility always lies with the customer?
+a.	Physical network
+b.	Operating system
+c.	Infrastructure
+d.	Devices
+e.	Identity and Directory
+f.	Applications
+
+Answer: d. Devices
+
+2. Which of the following is not a common type of security threat?
+a.	Data Breach
+b.	Ransomware
+c.	Pop-up spam
+d.	Disruptive Attach (e.g. DDoS)
+
+Answer: c. Pop-up Spam
+
+3. Which of these are among the three guiding principles of the Zero Trust Model?
+a.	Identify Malicious Actors
+b.	Verify Explicitly
+c.	Understand Breach
+d.	Least Privileged Access
+
+Answer: b. verify Explicitly and d. Least Privileged Access
+
+4. What are the 3 main tenets of information security?
+a.	Secure, Contain, and Protect (SCP).
+b.	Confidentiality, Integrity, and Availability (CIA).
+c.	Authorization, Responsiveness, and Prevention (ARP).
+d.	Security, Control, and Responsiveness (SCR).
+
+Answer: b.	Confidentiality, Integrity, and Availability (CIA).
+
+5. Which term best describes the concept of proactively verifying each request to access a protected resource?
+a.	Principle of Least Privilege
+b.	Defense in Depth
+c.	Zero Trust
+d.	Single Sign On
+
+Answer: c.	Zero Trust
+
+6. What are the steps required to onboard organizations and users to Microsoft Security Copilot?
+a. Enable Copilot plugins, and procure Microsoft Entra Premium 1 licensing.
+b. Procure Microsoft Entra Premium 1 licensing.
+c. Provision SCUs, set up the default environment, and assign role permission.
+
+Answer: c. Provision SCUs, set up the default environment, and assign role permission.
+
+7. A security analyst is crafting a prompt to investigate an incident involving the Pearl Sleet actor. Which prompt will likely yield the most comprehensive results?
+a. Can you give me information about Pearl Sleet activity, including a list of known indicators of compromise and tools, tactics, and procedures (TTPs)?
+b. Describe Pearl Sleet.
+c. List Pearl Sleet activities.
+
+Answer: a. Can you give me information about Pearl Sleet activity, including a list of known indicators of compromise and tools, tactics, and procedures (TTPs)?
+
+8. An admin is tasked with setting up Microsoft Security Copilot and needs to provision capacity. After reviewing the options, which method should the admin choose to provision capacity for their organization?
+a. Provision capacity through a third-party vendor
+b. Provision capacity within Security Copilot
+c. Provision capacity by directly purchasing SCUs from a software retailer
+
+Answer: b. Provision capacity within Security Copilot
+
+9. The security admin has created an Azure Network Security Group (NSG) to filter network traffic to a virtual machine. The admin wants to allow inbound traffic using the Remote Desktop Protocol (RDP), but the default NSG rules are currently blocking all inbound traffic that is not from another virtual network or an Azure load balancer. What does the security admin have to do to allow inbound traffic using RDP?
+a. Delete the default rule.
+b. Create a new network security rule that allows RDP traffic and that has a higher priority than the default rule.
+c. There's nothing the admin can do, RDP traffic isn't supported with NSGs.
+
+Answer: b. Create a new network security rule that allows RDP traffic and that has a higher priority than the default rule.
+You can create a new rule to allow RDP that has a higher priority than the default rule
+
+10. The security admin wants to protect Azure resources from DDoS attacks and needs logging, alerting, and telemetry capabilities. which Azure service can provide these capabilities?
+a. Default DDoS infrastructure protection.
+b. DDoS Network Protection.
+c. Azure Bastion.
+
+Answer: b. DDoS Network Protection.
+DDoS Network Protection provides the default DDoS infrastructure-level protection plus advanced capabilities, including logging, alerting, and telemetry.
+
+11. An organization has several virtual machines in Azure. The security admin wants to deploy Azure Bastion to get secure access to those VMs. What should the admin keep in mind?
+a. Azure Bastion is deployed per virtual network, with support for virtual network peering.
+b. Azure Bastion is deployed per subscription.
+c. Azure Bastion is deployed per virtual machine.
+
+Answer: a. Azure Bastion is deployed per virtual network, with support for virtual network peering.
+Azure Bastion deployment is per virtual network with support for virtual network peering, not per subscription/account or virtual machine.
+
+12. How can application developers benefit from using Azure Key Vault?
+a. To test and debug their application code.
+b. To register their application with Azure
+c. To securely store and retrieve application secrets
+
+Answer: c. To securely store and retrieve application secrets
+Application developers can use Azure Key Vault to securely store and retrieve application secrets, such as database connection strings, without having to include it in the application code.
+
+13. Microsoft Defender for Cloud covers three pillars of cloud security. Which pillar provides visibility to help you understand your current security situation and provides hardening recommendations?
+a. Cloud security posture management (CSPM)
+b. Cloud workload protection (CWP)
+c. Microsoft Cloud security benchmark
+
+Answer: a. Cloud security posture management (CSPM)
+The CSPM pillar of Microsoft Defender for Cloud provides visibility and to help you understand your current security situation and provides hardening recommendations.
+
+14. An organization wants to add vulnerability scanning for its Azure resources to view, investigate, and remediate the findings directly within Microsoft Defender for Cloud. What functionality of Microsoft Defender for Cloud would they need to consider?
+a. Secure score and recommendations functionality that are part of the CSPM pillar of Microsoft Defender for Cloud.
+b. The enhanced functionality that is provided through the Microsoft Defender plans and is part of the CWP pillar of Microsoft Defender for Cloud.
+c. Security Benchmarks
+
+Answer: b. The enhanced functionality that is provided through the Microsoft Defender plans and is part of the CWP pillar of Microsoft Defender for Cloud.
+Microsoft Defender plans provide enhanced security features for your workloads, including vulnerability scanning.
+
+15. Which framework does Microsoft Defender for Cloud apply as a default initiative for security and compliance and provides best practices and recommendations to help improve the security of workloads, data, and services on Azure and your multicloud environment?
+a. Microsoft Cloud security benchmark
+b. The Center for Internet Security (CIS) framework
+c. The National Institute of Standards and Technology (NIST) framework
+
+Answer: a. Microsoft Cloud security benchmark
+The Microsoft cloud security benchmark that is automatically assigned to every subscription in Microsoft Defender for Cloud.
+
+16. Which capability allows you to manage your connected DevOps environments and provides your security teams with visibility to discovered issues within those environments?
+a. The Defender for DevOps console
+b. Secure score
+c. The Microsoft cloud security benchmark (MCSB)
+
+Answer: a. The Defender for DevOps console
+The Defender for DevOps console allows you to manage your connected DevOps environments and provides your security teams with a high level overview of discovered issues that may exist within them.
+
+17. As the lead admin, it's important to convince your team to start using Microsoft Sentinel. You’ve put together a presentation. What are the four security operation areas of Microsoft Sentinel?
+a. Collect, Detect, Investigate, and Redirect.
+b. Collect, Detect, Investigate, and Respond.
+c. Collect, Detect, Investigate, and Repair.
+
+Answer: b. Collect, Detect, Investigate, and Respond.
+A SIEM/SOAR solution uses collect, detect, investigate, and respond to identify and protect your organization's network perimeter.
+
+18. Your estate has many different data sources where data is stored. Which tool should be used with Microsoft Sentinel to quickly gain insights across your data as soon as a data source is connected?
+a. Azure Monitor Workbooks.
+b. Playbooks.
+c. Microsoft Defender XDR.
+
+Answer: a. Azure Monitor Workbooks.
+Using the Microsoft Sentinel integration with Azure Monitor Workbooks allows you to monitor data and provides versatility in creating custom workbooks.
+
+19. A security analyst is tasked with investigating a specific incident using Microsoft Sentinel. They want to obtain a summary of the incident, related alerts, reputation scores, users, and devices. What functionality should they use?
+a. Microsoft Sentinel KQL (Preview) plugin
+b. Microsoft Sentinel incident investigation promptbook
+c. Jupyter notebooks
+
+Answer: b. Microsoft Sentinel incident investigation promptbook
+The Microsoft Sentinel incident investigation promptbook includes prompts for getting a report about a specific incident, along with related alerts, reputation scores, users, and devices.
+
+20. A lead admin for an organization is looking to protect against malicious threats posed by email messages, links (URLs), and collaboration tools. Which solution from the Microsoft Defender XDR suite is best suited for this purpose?
+a. Microsoft Defender for Office 365.
+b. Microsoft Defender for Endpoint.
+c. Microsoft Defender for Identity.
+
+Answer: a. Microsoft Defender for Office 365.
+Microsoft Defender for Office 365 safeguards against malicious threats posed by email messages, links (URLs), and collaboration tools, including Microsoft Teams, SharePoint Online, OneDrive, and other Office clients.
+
+21. A cloud access security broker (CASB) provides protection across 4 areas/pillars: visibility to detect all cloud services, data security, threat protection, and compliance. These pillars represent the basis of the Cloud App Security framework upon which Microsoft Defender for Cloud Apps is built. Which pillar is responsible for identifying and controlling sensitive information?
+a. Threat protection.
+b. Compliance.
+c. Data Security.
+
+Answer: c. Data Security.
+Through the Data Security pillar, an admin can identify and control sensitive information and respond to classification labels on content.
+
+22. Which of the following is a cloud-based security solution that identifies, detects, and helps to investigate advanced threats, compromised identities, and malicious insider actions directed at your organization?
+a. Microsoft Defender for Office 365
+b. Microsoft Defender for Identity
+c. Microsoft Defender for Cloud Apps
+
+Answer: b. Microsoft Defender for Identity
+Microsoft Defender for Identity is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
+
+23. Admins in the organization are using the Microsoft Defender portal every day. They want to quickly get an understanding of the organization's current security posture. Which capability in the Microsoft Defender portal will they use?
+a. Reports.
+b. Secure Score.
+c. Policies.
+
+Answer: b. Secure Score.
+Secure Score, in the Microsoft Defender portal, will give a snapshot of an organization’s security posture, and provide details on how to improve it.
+
+24. Your security and IT teams want to implement a solution that helps address critical vulnerabilities and misconfigurations across your organization. Which solution in the Microsoft Defender XDR suite can help address these requirements?
+a. Microsoft Defender for Office 365.
+b. Microsoft Defender for Identity.
+c. Microsoft Defender Vulnerability Management.
+
+Answer: c. Microsoft Defender Vulnerability Management.
+With Defender Vulnerability Management, you can empower your security and IT teams to prioritize and address critical vulnerabilities and misconfigurations across your organization.
+
+25. When browsing Microsoft compliance documentation in the Service Trust Portal, you have found several documents that are specific to your industry. What is the best way of ensuring you keep up to date with the latest updates?
+a. Save the documents to your My Library.
+b. Print each document so you can easily refer to them.
+c. Download each document.
+
+Answer: a. Save the documents to your My Library.
+Saving the document to the My Library section of the Service Trust Portal, will ensure you have the latest updates.
+
+26. Microsoft's approach to privacy is built on six principles: Three of the principles are strong legal protections for privacy, no content-based targeting, and benefits to customers from any data we collect. Identify the three other principles that are part of Microsoft's approach to privacy.
+a. Customer control, transparency, and security.
+b. Shared responsibility, transparency, and security.
+c. Customer control, transparency, and zero trust.
+
+Answer: a. Customer control, transparency, and security.
+The foundation of Microsoft's approach to privacy is built on the following six principles: customer control, transparency, security, strong legal protections for privacy, no content-based targeting, and benefits to customers from any data we collect.
+
+27. A company needs to handle inquiries about personal data that they have collected, as per certain privacy regulations. Which Priva solution should they implement?
+a. Priva Privacy Assessments
+b. Priva Consent Management
+c. Priva Subject Rights Requests
+
+Answer: c. Priva Subject Rights Requests
+Priva Subject Rights Requests helps handle inquiries about personal data that companies have collected.
+
+28. As part of a new data loss prevention policy, the compliance admin needs to be able to identify important information such as credit card numbers, across the organization's data. How can the admin address this requirement? 
+a. Use activity explorer.
+b. Use sensitivity labels.
+c. Use sensitive information types.
+
+Answer: c. Use sensitive information types.
+Microsoft provides built-in sensitive information types that you can use to identify data such as credit card numbers.
+
+29. Within the organization, some emails are confidential and should be encrypted so that only authorized users can read them. How can this requirement be implemented? 
+a. Use the content explorer.
+b. Use sensitivity labels.
+c. Use records management.
+
+Answer: b. Use sensitivity labels.
+Sensitivity labels help ensure that emails can only be decrypted only by users authorized by the label's encryption settings.
+
+30. The compliance admin for the organization wants to explain the importance of insider risk management, to the business leaders. What use case would apply? 
+a. To identify and protect against risks like an employee sharing confidential information.
+b. To identify and protect against malicious software across your network, such as ransomware.
+c. To identify and protect against devices shutting down at critical moments.
+
+Answer: a. To identify and protect against risks like an employee sharing confidential information.
+Use risk management to help protect your organization against these risks.
+
+31. An organization needs to retain audit records for a longer period of time and gain access to high-value intelligent insights. Which auditing solution should they use?
+a. Microsoft 365 Management Activity API
+b. Audit (Standard)
+c. Audit (Premium)
+
+Answer: c. Audit (Premium)
+Audit (Premium) provides longer retention of audit records, high-value intelligent insights, and higher bandwidth access to the Office 365 Management Activity API.
+
+32. An investigator is tasked with identifying and reviewing content in Microsoft 365 services for a legal case. They need to preserve relevant content from inadvertent deletion during the investigation. Which eDiscovery feature should they use?
+a. Place content locations on hold
+b. Export search results
+c. Search statistics and samples
+
+Answer: a. Place content locations on hold
+'Place content locations on hold' allows preservation of content relevant to an investigation by securing electronically stored information.
+
+33. An organization wants to ensure that its employees are adhering to corporate policies in their day-to-day business communications. They want to detect any potential concerns of offensive language or harassment. Which Microsoft tool can they use to scan user communications across the organization?
+a. Microsoft Copilot for Microsoft 365
+b. Microsoft Purview Communication Compliance
+c. Microsoft Teams
+
+Answer: b. Microsoft Purview Communication Compliance
+Microsoft Purview Communication Compliance is an insider risk solution that helps detect, capture, and act on inappropriate messages that can lead to potential data security or compliance incidents within an organization.
+
+34. A company needs to manage its data lifecycle by ensuring content is kept only for a required time, and then permanently deleted. They want to apply different retention periods to different documents within the same SharePoint site. What should they do to achieve this?
+a. Apply a single retention label to all documents in the SharePoint site.
+b. Apply a policy to the SharePoint site with a retention period of five years and apply a retention label to the individual items with a retention setting of 10 years.
+c. Apply a single retention policy to the entire SharePoint site with a retention period of five years.
+
+Answer: b. Apply a policy to the SharePoint site with a retention period of five years and apply a retention label to the individual items with a retention setting of 10 years.
+This approach allows for different retention periods for different documents within the same SharePoint site.
+
+35. An administrator is setting up retention labels for an organization's records. What happens when content is labeled as a record using a retention label?
+a. Restrictions are put in place to block certain activities, activities are logged, and proof of disposition is kept at the end of the retention period.
+b. The content is automatically deleted after a certain period.
+c. The content becomes publicly accessible.
+
+Answer: a. Restrictions are put in place to block certain activities, activities are logged, and proof of disposition is kept at the end of the retention period.
+When content is labeled as a record, restrictions are put in place, activities are logged, and proof of disposition is kept at the end of the retention period.
+
+36. Which feature of Microsoft Purview Data Catalog is used to provide critical business context to your data assets and also apply policies that determine how your data should be managed, governed, and made discoverable for users
+a. Glossary terms
+b. Data products
+c. Objectives and key results (OKRs)
+
+Answer: a. Glossary terms
+Glossary terms provide critical business context to your data assets and also apply policies that determine how your data should be managed, governed, and made discoverable for use."
+
+37. Which data governance concept is about organizing, annotating, and publishing your data so that it's safely accessible, reuseable, and protected.
+a. Data curation
+b. Data access
+c. Data health
+
+Answer: a. Data curation
+Data curation is about organizing, annotating, and publishing your data so that it's safely accessible, reuseable, and protected.
+
+38. The Microsoft approach to privacy is built on [answer choice].
+a. control, transparency, security, strong legal protections, no content-based targeting, and benefits to you
+b. control, transparency, security, legal protections, limited content-based targeting, and mutual benefits to Microsoft and you
+c. governance, transparency, security, no content-based targeting, freedom of information, and benefits to you
+d. governance, transparency, security, content-based targeting, freedom of information, and benefits to you
+
+Answer: a. control, transparency, security, strong legal protections, no content-based targeting, and benefits to you
+
+39. What are the three types of controls used in Microsoft Purview Compliance Manager? Each correct answer presents part of the solution.
+a. Microsoft-managed controls, third-party managed controls, and customer-managed controls
+b. Microsoft-managed controls, shared controls, and customer-managed controls
+c. third-party controls, shared controls, and government controls
+d. government controls, customer-managed controls, and shared controls
+
+Answer: b. Microsoft-managed controls, shared controls, and customer-managed controls
+
+40. What does the compliance score in Compliance Manager measure?
+a. an organization’s capability to deploy security measures
+b. an organization’s progress toward implementing controls
+c. an organization’s capability to assess controls
+d. an organization’s progress in creating controls
+
+Answer: a. an organization’s capability to deploy security measures
+
+41. Which type of Compliance Manager controls are used for Microsoft cloud services?
+a. customer-managed controls
+b. shared controls
+c. Microsoft-managed controls
+d. assessment controls
+
+Answer: c. Microsoft-managed controls
+
+42. In Microsoft Purview, what should you use to identify invoice numbers in data from your organization?
+a. Content explorer
+b. exact data match (EDM)
+c. trainable classifiers
+d. sensitive info types
+
+Answer: d. sensitive info types
+
+43. In Microsoft Purview, what should you create to automatically encrypt documents marked by users as sensitive?
+a. a sensitivity label and a sensitivity label policy
+b. a sensitivity label and a retention policy
+c. a retention label and a sensitivity label policy
+d. a retention label and a retention policy
+
+Answer: a. a sensitivity label and a sensitivity label policy
+A sensitivity label and a sensitivity label policy are needed to publish a label for users to use. The other options are for data loss prevention (DLP), not sensitivity labeling. DLP policies cannot encrypt data.
+
+44. In Microsoft Purview, which type of policy allows you to prevent documents that contain personal identification from being shared outside your organization?
+Select only one answer.
+a. sensitivity label policy
+b. retention policy
+c. data loss prevention (DLP) policy
+d. Azure policy
+
+Answer: c. data loss prevention (DLP) policy
+A DLP policy is used to handle data loss. Sensitivity label policies are used to apply a label to a document. A retention policy is used to define how long a document is maintained. Azure Policy is used to determine how Azure services are configured.
+
+45. In Microsoft Purview, what can you use to label items as regulatory records, maintain proof of item deletion, and export information about disposed items?
+Select only one answer.
+a. a retention label and a retention label policy
+b. a retention policy
+c. a sensitivity label and a sensitivity label policy
+d. data loss prevention (DLP) policy
+
+Answer: a. a retention label and a retention label policy
+These are features of records management. Sensitivity labels allow us to label items. Azure Policy cannot be used to handle documents. DLP does not handle the disposition of items.
+
+46. Microsoft Purview information protection and data lifecycle management work together to [answer choice] data.
+Select only one answer.
+a. classify, protect, and govern
+b. classify, protect, and back up
+c. explore, protect and share
+d. explore, protect, and back up
+
+Answer: a. classify, protect, and govern
+Information protection and data lifecycle management work together to classify, protect, and govern data. You cannot share data via Microsoft Purview.
+
+47. Where can you access and review sensitive files from a snapshot of the scanned items?
+Select only one answer.
+a. the Microsoft Purview compliance portal
+b. Microsoft Defender for Cloud portal
+c. the Microsoft Entra admin center
+d. Microsoft Intune admin center
+
+Answer: a. the Microsoft Purview compliance portal
+Scanned source content that is stored in different locations, such as Exchange, SharePoint, and OneDrive can be accessed and reviewed by using the Compliance Manager.
+
+48. What can be used to set up a unified data governance service that enables end-to-end data lineage?
+Select only one answer.
+a. Active Directory
+b. Microsoft Defender for SQL
+c. Microsoft Purview
+d. Microsoft Intune
+
+Answer: c. Microsoft Purview
+Microsoft Purview is a unified data governance service that helps you manage and govern on-premises, multi-cloud, and software-as-a-service (SaaS) data. It can be used to set up a unified data governance service, enabling end-to-end data lineage.
+
+49. Which type of policy can you use to prevent user from sharing files with users in other departments?
+Select only one answer.
+a. data loss prevention (DLP) policy
+b. retention policy
+c. Azure Policy
+d. information barrier policy
+
+Answer: d. information barrier policy
+DLP policies can prevent data loss, but only based on sensitivity labels, not based on which application (Teams) is used. Retention policies are used to specify how long files are kept. Azure policies are used to govern Azure resources, not files. Information barrier policies can be used to prevent users from sharing files and communicating in Teams.
+
+50. In Microsoft Purview, what can you use to scan for offensive language across an organization?
+Select only one answer.
+a. information protection
+b. communication compliance
+c. information barriers
+d. Activity explorer
+
+Answer: b. communication compliance
+Communication compliance allows you to detect and remediate inappropriate language. Information barriers can be used to disable certain interactions, but not based on language. Activity explorer can be used to view activities in Compliance Manager. Policy compliance lets you see which policies are in or out of compliance.
+
+51. Which security model uses a layered approach to security, providing mechanisms to stop a breach at the perimeter of each layer?
+Select only one answer.
+a. defense in depth
+b. Payment Card Industry Data Security Standards (PCI DSS) compliance
+c. shared responsibility
+d. Zero Trust
+
+Answer: a. defense in depth
+Defense in depth uses a layered approach to security. Shared responsibility model is about defining the responsibilities of each party (company and vendor). PCI is a compliance regulation, not a security model.
+
+52. What is a guiding principle of the Zero Trust model?
+Select only one answer.
+a. verify explicitly
+b. advance user access
+c. test for breach
+d. trust the local network
+
+Answer: a. verify explicitly
+The Zero Trust model has three guiding principles which are verify explicitly, least privilege access, and assume breach.
+
+53. Which encryption method uses a public key and private key pair?
+Select only one answer.
+a. symmetric encryption
+b. shared key
+c. hashing
+d. asymmetric encryption
+
+Answer: d. asymmetric encryption
+Asymmetric encryption uses a public key and private key pair. Either the public or private key can encrypt data, but either on their own cannot be used to decrypt encrypted data.
+
+54. Which identity provider allows you to use software as a service (SaaS) and platform as a service (PaaS) in Azure with the least administrative effort?
+Select only one answer.
+a. Active Directory
+b. Microsoft Entra ID
+c. Google identity
+d. Facebook identity
+
+Answer: b. Microsoft Entra ID
+Microsoft Entra ID can be used without the need for domain controller servers. Active Directory requires virtual machines or physical servers running Active Directory. Google and Facebook identity requires federation.
+
+55. What are two characteristics of an identity as the primary security perimeter model? Each correct answer presents a complete solution.
+Select all answers that apply.
+a. Software as a service (SaaS) applications for business-critical workloads can be hosted outside of a corporate network.
+b. Only corporate devices can be used to complete corporate tasks.
+c. Bring your own device (BYOD) can be used to complete corporate tasks.
+d. Software as a service (SaaS) applications for business-critical workloads that might be hosted cannot be hosted outside of a corporate network.
+
+Answer: a. Software as a service (SaaS) applications for business-critical workloads can be hosted outside of a corporate network.
+c. Bring your own device (BYOD) can be used to complete corporate tasks.
+SaaS applications for business-critical workloads can be hosted outside of the corporate network and BYOD can be used to complete corporate tasks in the identity as the primary security perimeter model. The other options represent the traditional perimeter-based security model.
+
+56. What is a capability of Active Directory Domain Services (AD DS)?
+Select only one answer.
+a. supports mobile devices
+b. supports software as a service (SaaS) applications
+c. manages on-premises systems by using a single identity per user
+d. manages line-of-business (LOB) apps that require modern authentication methods
+
+Answer: c. manages on-premises systems by using a single identity per user
+AD DS allows you to manage multiple on-premises infrastructure components and systems by using a single identity per user. AD DS does not support mobile devices, SaaS applications, or LOB apps that require modern authentication methods.
+
+57. What is a characteristic of federation?
+Select only one answer.
+a. Federation must be cloud-based.
+b. Federation enables access to services across organizations.
+c. The trust is always bidirectional.
+d. Users must maintain different usernames in other domains.
+
+Answer: b. Federation enables access to services across organizations.
+Federation enables access to services across organizations. Identity providers can be on-premises, trust is not always bidirectional, and users do not need to maintain different usernames in other domains.
+
+58. Which functionality is provided by Microsoft Entra ID?
+Select only one answer.
+a. single sign on (SSO) for users
+b. defense in depth
+c. encryption of data at rest
+d. encryption of data in transit
+
+Answer: a. single sign on (SSO) for users
+Microsoft Entra ID provides SSO. Microsoft Entra ID provides federation. Microsoft Entra is one perimeter of defense in depth. Microsoft Entra ID does not provide file services. Microsoft Entra ID does not provide the encryption of data in transit.
+
+59. What is the minimum edition of Microsoft Entra ID needed to use Microsoft Entra Privilege Identity Management (PIM)?
+Select only one answer.
+a. Free
+b. Microsoft Entra External ID
+c. Microsoft Entra ID P1
+d. Microsoft Entra ID P2
+
+Answer: d. Microsoft Entra ID P2
+Microsoft Entra ID P2 is the only edition that provides PIM support.
+
+60. You need to allow external users to use shared resources hosted in your Azure subscription.
+You plan to use monthly active users (MAU) billing. You need to ensure that you are not charged for the first 50,000 MAUs per month.
+What is the minimum edition of Microsoft Entra ID that you can use?
+Select only one answer.
+a. Free
+b. Microsoft Entra External ID
+c. Microsoft Entra ID P1
+d. Microsoft Entra ID P2
+
+Answer: c. Microsoft Entra ID P1
+MAU billing can be used with all Microsoft tenants, however Both Microsoft Entra ID P1 and P2 do not charge for the first 50, 000 MAU per month. Microsoft Entra ID P1 is the minimum edition that allows this. Free and Microsoft Entra External ID will incur costs per user and not provide any benefits for the first 50,000 MAU per month.
+
+61. An organization is migration to the Microsoft cloud. The plan is to use a hybrid identity model.
+What can be used to sync identities between Active Directory Domain Services (AD DS) and Microsoft Entra tenant?
+Select only one answer.
+a. Active Directory Federation Services (AD FS)
+b. Microsoft Sentinel
+c. Microsoft Entra Connect
+d. Microsoft Entra Privileged Identity Management
+
+Answer: c. Microsoft Entra Connect
+Microsoft Entra Connect is designed to meet and accomplish hybrid identity goals. AD FS cannot be used for hybrid identity models. Microsoft Sentinel is not an identity product. PIM is used for managing and monitoring access to important resources.
+
+62. Which two authentication methods are available for self-service password reset (SSPR) in Microsoft Entra ID? Each correct answer presents a complete solution.
+Select all answers that apply.
+a. Windows Hello
+b. email
+c. security questions
+d. FIDO2 hardware token
+
+Answer: b. email & c. security questions
+Email and security questions are two authentication methods that are available for SSPR in Microsoft Entra.
+
+63. What can you use to prevent users from using an organization’s name or the names of the organization’s products as passwords in Microsoft Entra ID?
+Select only one answer.
+a. a global banned password list
+b. Microsoft Entra ID Protection
+c. Microsoft Entra Password Protection
+d. multi-factor authentication (MFA)
+
+Answer: c. Microsoft Entra Password Protection
+The global banned password list does not cover your own organization and product names. Microsoft Entra Password Protection provides protection from password spray. MFA does not manage password entries.
+
+64. What are three things that a user can use for Microsoft Entra Multi-Factor Authentication (MFA)? Each correct answer presents a complete solution.
+Select all answers that apply.
+a. something the claimant knows
+b. something the claimant has
+c. something the claimant is
+d. something the claimant cannot reuse
+e. something the claimant solves
+
+Answer: a. something the claimant knows
+b. something the claimant has
+c. something the claimant is
+Microsoft Entra MFA works by requiring something you know (such as a password), and something you have (such as a phone), or something you are (biometrics).
+
+65. Which Microsoft Entra feature helps reduce helpdesk calls and the loss of productivity when a user cannot sign in to their device or an application?
+Select only one answer.
+a. self-service password reset (SSPR)
+b. Identity protection
+c. Conditional Access
+d. Microsoft Entra Password Protection
+
+Answer: a. self-service password reset (SSPR)
+SSPR is a feature of Microsoft Entra that allows users to change or reset their password without administrator or helpdesk involvement. Without enabling SSPR, Identity protection cannot provide the requested solution. Conditional Access brings signals together to make decisions and enforce organizational policies but not SSPR. Microsoft Entra Password Protection reduces the risk when users set weak passwords.
+
+66. A malicious user is attempting to access many user accounts by using commonly used passwords. The user repeats the action every 20 minutes to avoid triggering an account lockout.
+Which Microsoft Entra feature can protect organizations from such attacks?
+Select only one answer.
+a. Windows Hello for Business
+b. self-service password reset (SSPR)
+c. Conditional Access
+d. Microsoft Entra Password Protection
+
+Answer: d. Microsoft Entra Password Protection
+Microsoft Entra Password Protection helps you defend against password spray attacks. Conditional Access brings signals together to make decisions and enforce organizational policies, but it cannot stop password attacks by itself. SSPR allows users to change or reset their password without administrator or helpdesk involvement, but it cannot prevent password attacks. Windows Hello for Business replaces passwords with strong two-factor authentication on devices.
+
+67. What should you use in Microsoft Entra to provide users with the ability to perform administrative tasks?
+Select only one answer.
+a. app registrations
+b. external identities
+c. groups
+d. roles
+
+Answer: d. roles
+Roles in Microsoft Entra have permission to perform certain administrative tasks. You assign these roles to users.
+
+68. Which two signals can be used as part of Conditional Access? Each correct answer presents part of the solution.
+Select all answers that apply.
+a. group membership
+b. device platform
+c. password length
+d. phone number
+
+Answer: a. group membership
+b. device platform
+Conditional Access signals include User or group membership, Named location information, Application, Real-time sign-in risk detection, Cloud apps or actions, and User risk.
+
+69. What is the least privileged Microsoft Entra role that can be used to create and manage users and groups?
+Select only one answer.
+a. Global Administrator
+b. Security Administrator
+c. User Administrator
+d. Teams Administrator
+
+Answer: c. User Administrator
+User Administrator can manage both users and groups. Global Administrator can also manage users and groups, but the role has far too many privileges.
+
+70. What can you use to receive alerts for potentially compromised user accounts without blocking the users from signing in?
+Select only one answer.
+a. Real-time sign-in risk detection
+b. User risk
+c. Application Signal
+d. Cloud apps or actions
+
+Answer: b. User risk
+User risk represents the probability that a given identity or account is compromised. User risk can be configured for high, medium, or low probability. Admins can set up this signal without interrupting user sign-ins.
+
+71. What is the difference between Microsoft Entra role-based access control (RBAC) and Azure RBAC?
+Select only one answer.
+a. Microsoft Entra roles control access to resources such as users, groups, and applications. Azure roles control access to resources, such as virtual machines.
+b. Microsoft Entra roles control access to resources, such as virtual machines. Azure roles control access to resources, such as users, groups, and applications.
+c. Users with Microsoft Entra roles can make purchases and manage subscriptions. Users with Azure roles have access to all the administrative features in Microsoft Entra.
+d. Users with Microsoft Entra roles have access to all the administrative features in Microsoft Entra. Users with Azure roles can make purchases and manage subscriptions.
+
+Answer: a. Microsoft Entra roles control access to resources such as users, groups, and applications. Azure roles control access to resources, such as virtual machines.
+Microsoft Entra built-in and custom roles are a form of RBAC in that Microsoft Entra roles control access to Microsoft Entra resources. This is referred as Microsoft Entra RBAC. In the same way that Microsoft Entra roles can control access to Microsoft Entra resources, so too can Azure roles control access to Azure resources. This is referred to as Azure RBAC. Although the concept of RBAC applies to both Microsoft Entra RBAC and Azure RBAC, what they control is different.
+
+72. What is a user risk in Microsoft Entra ID Protection?
+Select only one answer.
+a. leaked credentials
+b. atypical travel
+c. password spray
+d. anonymous IP address
+
+Answer: a. leaked credentials
+Leaked credentials is a user risk. Atypical travel, anonymous IP address, and password spray are sign-in risks.
+
+73. What are types of distributed denial-of-service (DDoS) attacks?
+Select only one answer.
+a. password spray, protocol attacks, and man-in-the-middle (MITM) attacks
+b. password spray, dictionary attack, and resource layer attacks
+c. resource layer attacks, protocol attacks, and volumetric attacks
+d. dictionary attacks, man-in-the-middle (MITM) attacks, and volumetric attacks
+
+Answer: c. resource layer attacks, protocol attacks, and volumetric attacks
+Resource layer attacks, protocol attacks, and volumetric attacks are the most common DDoS attacks. Password sprays and MITM attacks are not DDoS attacks.
+
+74. Which statement describes network security groups (NSG)?
+Select only one answer.
+a. Provide network layer traffic filtering to limit traffic to resources within virtual networks in each subscription.
+b. Provide protection of web app from common exploits and vulnerabilities.
+c. Provide a centralized network firewall as-a-service, which provides network and application-level protection across different subscriptions and virtual networks.
+d. Allow a lock down of inbound traffic only, reducing exposure to attacks.
+
+Answer: a. Provide network layer traffic filtering to limit traffic to resources within virtual networks in each subscription.
+NSGs provide distributed network layer traffic filtering to limit traffic to resources within virtual networks in each subscription.
+
+75. You have the following inbound network security group (NSG) security rules in Azure:
+•	AllowVNetInBound with a priority of 65000
+•	AllowAzureLoadBalancerInBound with a priority of 65001
+•	DenyAllInBound with a priority of 65500
+No other inbound rules were defined for the NSG.
+In which order will the rules be processed?
+Select only one answer.
+a. The AllowVNetInBound rule is processed first. The AllowAzureLoadBalancerInBound rule is processed second. The last rule that will be processed in the NSG, is the DenyAllInBound rule.
+b. The DenyAllInBound rule is processed first. The AllowAzureLoadBalancerInBound rule is processed second. The last rule that will be processed in the NSG is the AllowVNetInBound rule.
+c. The AllowAzureLoadBalancerInBound rule is processed first. The AllowVNetInBound rule is processed second. The last rule that will be processed in the NSG is the DenyAllInBound rule.
+d. The DenyAllInBound rule is processed first. The AllowVNetInBound rule is processed second. The last rule that will be processed in the NSG is the AllowVNetInBound rule.
+
+Answer: a. The AllowVNetInBound rule is processed first. The AllowAzureLoadBalancerInBound rule is processed second. The last rule that will be processed in the NSG, is the DenyAllInBound rule.
+The lowest priority value always has the priority.
+
+76. Which Azure service provides centralized protection of web apps from common exploits and vulnerabilities?
+Select only one answer.
+a. Azure Key Vault
+b. Azure Web Application Firewall (WAF)
+c. Microsoft Entra ID Protection
+d. Microsoft Defender for Cloud
+
+Answer: b. Azure Web Application Firewall (WAF)
+Azure WAF provides centralized protection of web app from common exploits and vulnerabilities. Key Vault is a centralized cloud service for storing application secrets. Defender for Cloud is an Endpoint protection solution and cannot help mitigate the attacks.
+
+77. Which service enables you to continually assess the security posture, identify threats, and harden resources in Azure and on-premises workloads?
+Select only one answer.
+a. Azure Firewall
+b. Microsoft Defender for Cloud
+c. Azure Web Application Firewall (WAF)
+d. Microsoft Purview
+
+Answer: b. Microsoft Defender for Cloud
+These are capabilities of Defender for Cloud. Azure Firewall does not harden resources or assess threats. Azure WAF protects web apps, not Azure resources. Microsoft Purview provides data governance.
+
+78. Which two industry frameworks are used in the Azure Security Benchmark? Each correct answer presents a complete solution.
+Select all answers that apply.
+a. Center for Internet Security (CIS)
+b. Federal Information Processing Standard (FIPS) 140
+c. Open Web Application Security Project (OWASP)
+d. National Institute of Standards and Technology (NIST)
+
+Answer: a. Center for Internet Security (CIS)
+d. National Institute of Standards and Technology (NIST)
+CIS is the main industry standard used. NIST is another standard used in ASB. FIPS 140 is a standard for hardware security modules. OWASP is a Web Application Firewall (WAF) standard.
+
+
+79. What can you use to manage security for a multi-cloud environment that includes Amazon Web Services (AWS) and Google Cloud Platform (GCP)?
+Select only one answer.
+a. Microsoft Defender for Cloud
+b. Microsoft Purview Insider Risk Management
+c. Microsoft Secure Score
+d. Microsoft Entra Privileged Identity Management
+
+Answer: a. Microsoft Defender for Cloud
+Defender for Cloud gives you the ability to connect and secure resources hosted in AWS and GCP.
+
+
+80. [Answer choice] can be used to apply guidance from the Azure Security Benchmark to services such as Microsoft Entra.
+Select only one answer.
+a. Security baselines
+b. Microsoft Sentinel
+c. Microsoft Purview
+d. Compliance policies
+
+Answer: a. Security baselines
+Security baselines for Azure apply guidance from the Azure Security Benchmark to the specific service for which it is defined and provide organizations with a consistent experience when securing their environment.
+
+81. What are two characteristics of a security information and event management (SIEM) solution? Each correct answer presents a complete solution.
+Select all answers that apply.
+a. collection of data from IT estate
+b. correlation of data
+c. action-driven workflows
+d. issue mitigation
+
+Answer: a. collection of data from IT estate
+b. correlation of data
+The collection of data from IT estate and the correlation of data are part of a SIEM system.
+
+82. Which two types of security systems make up Microsoft Sentinel? Each correct answer presents part of the solution.
+Select all answers that apply.
+a. data loss prevention (DLP)
+b. security information and event management (SIEM)
+c. security orchestration automated response (SOAR)
+d. endpoint protection platform (EPP)
+
+Answer: b. security information and event management (SIEM)
+c. security orchestration automated response (SOAR)
+Microsoft Sentinel is a mix of SIEM and SOAR systems.
+
+83. Which components can be protected by using Microsoft 365 Defender?
+Select only one answer.
+a. endpoints, identities, hard drives, and switches
+b. endpoints, identities, email, and applications
+c. email, applications, routers, and switches
+d. hard drives, switches, email, and applications
+
+Answer: b. endpoints, identities, email, and applications
+Endpoints, identities, email, and applications are protected by using Microsoft 365 Defender. Microsoft 365 Defender cannot protect physical devices.
+
+84. Which Microsoft Defender for Endpoint feature regulates access to malicious IP addresses, domains, and URLs?
+Select only one answer.
+a. threat and vulnerability management
+b. attack surface reduction (ASR)
+c. automated investigation and remediation (AIR)
+d. Microsoft threat experts
+
+Answer: b. attack surface reduction (ASR)
+ASR handles access to malicious endpoints. AIR uses playbooks to analyze alerts and take action. Microsoft threat experts handle the SOCs of Microsoft. Threat and vulnerability management scans for vulnerabilities and misconfiguration.
+
+85. Which feature in Microsoft Defender for Cloud Apps is used to retrieve data from activity logs?
+Select only one answer.
+a. Cloud Discovery
+b. App connectors
+c. policies
+d. the Cloud apps catalog
+
+Answer: b. App connectors
+Connectors retrieve data from apps and their activity logs. Policies detect risky behavior, violations, and suspicious data points. The Cloud apps catalog is used to sanction or unsanction apps. Cloud Discovery is used to identify cloud environments and apps used by an organization.
+
+86. What are the four pillars of a Cloud Access Security Broker (CASB)?
+Select only one answer.
+a. control, compliance, platform security, and governance
+b. discovery, protection, accessible cloud apps, and platform security
+c. visibility, compliance, data security, and platform security
+d. visibility, compliance, data security, and threat protection
+
+Answer: d. visibility, compliance, data security, and threat protection
+Visibility, compliance, data security, and threat protection are the four pillars of a CASB.
+
+87. Which three components are protected by using Microsoft Defender? Each correct answer provides a complete solution.
+Select all answers that apply.
+a. identity
+b. endpoints
+c. applications
+d. analytics
+e. mobile devices
+
+Answer: a. identity, b. endpoints, c. applications
+Microsoft 365 Defender suite protects identities with Microsoft Defender for Identity and Microsoft Entra Identity Protection, endpoints with Microsoft Defender for Endpoint, applications with Microsoft Defender for Cloud Apps, and email and collaboration with Microsoft Defender for Office 365.
+
